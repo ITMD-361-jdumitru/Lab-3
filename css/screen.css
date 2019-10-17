@@ -202,8 +202,10 @@ label {
   display: block;
 }
 
-/* ===== LAYOUT STYLES ====== */
+@@media  only screen and (min-width: 600px) {
+  body {
+    font-family: 'Rubik', sans-serif;
+    background-color: #696969
+  }
 
-/* ===== MODULAR STYLES ===== */
-
-/* ===== STATE STYLES ======= */
+}
