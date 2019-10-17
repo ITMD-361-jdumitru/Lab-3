@@ -208,4 +208,35 @@ label {
     background-color: #696969
   }
 
+  h1 {
+    text-align: center;
+    font-size: 40px;
+    color: #f1f1ef;
+    line-height: .8em;
+    padding-bottom: 40px;
+
+  }
+
+  li,p {
+    text-align: center;
+    font-size: 28px;
+    color: #f1f1ef;
+    line-height: .8em;
+    padding-bottom: 28px;
+
+  }
+
+  #input-email {
+    margin-left: 2%;
+    font-size: 20px;
+
+  }
+
+  #email {
+    width: 60%;
+    margin: .1em 0em 1em 0em;
+    background-color: #f9f9e7;
+
+  }
+
 }
