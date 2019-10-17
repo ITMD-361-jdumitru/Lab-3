@@ -202,7 +202,7 @@ label {
   display: block;
 }
 
-@@media  only screen and (min-width: 600px) {
+@media  only screen and (min-width: 500px) {
   body {
     font-family: 'Rubik', sans-serif;
     background-color: #696969
@@ -210,10 +210,10 @@ label {
 
   h1 {
     text-align: center;
-    font-size: 40px;
+    font-size: 70px;
     color: #f1f1ef;
     line-height: .8em;
-    padding-bottom: 40px;
+    padding-bottom: 50px;
 
   }
 
@@ -222,14 +222,16 @@ label {
     font-size: 28px;
     color: #f1f1ef;
     line-height: .8em;
-    padding-bottom: 28px;
-
+    padding-bottom: 40px;
+    font-family: 'Rubik', sans-serif;/*just in case, I can't tell anymore by looking at it*/
+    margin-bottom: 5px;
   }
 
   #input-email {
     margin-left: 2%;
     font-size: 20px;
-
+    padding-top: 70px;
+    font-size: 30px;
   }
 
   #email {
@@ -237,6 +239,32 @@ label {
     margin: .1em 0em 1em 0em;
     background-color: #f9f9e7;
 
+  }
+
+  input[type=checkbox] {
+    height: .5em;
+    width: .5em;
+    margin: 1em;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,.5);
+  }
+  /*I've been trying to make the button move to the left or right but sadly no go..*/
+  #input-submit {
+      text-align: center;
+  }
+
+  input[type=submit] {
+    background-color: #383838;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
+    color: #dcdcdc;
+    padding: 30px 60px;
+    text-align: center;
+    display: inline-block;
+    font-size: 25px;
+    margin: 1em;
+    text-decoration: none;
+    font-family: 'Rubik', sans-serif;
   }
 
 }
